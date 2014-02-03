@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'yelpster'
+
 gem 'devise'
 
 gem 'better_errors'
