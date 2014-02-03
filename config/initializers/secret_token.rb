@@ -10,3 +10,9 @@
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
 WeddingDress::Application.config.secret_key_base = '1a6dbd33059624bb641a3ae18d3c13b6c5c012e9ffe04033e04ecb6ccad883dee5a2266042214e488904e7ea0a676dc809a2387cadcc05840c2955f6f009a85b'
+
+Yelp.configure(:yws_id          => 'jMnxik7LKgk4B_vQbaqICw',
+               :consumer_key    => 'opyynI3iXhHRnINjIPNj9Q',
+               :consumer_secret => 't-fYYAmxUHfl8gl1uK34NIjg3Sc',
+               :token           => 'HmhtCHfRleRJi47r5sn4ZDT5caDr8BRN',
+               :token_secret    => 'nTLxF7alMXPtRyf_vEwQaQiQ19c')
