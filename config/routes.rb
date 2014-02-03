@@ -1,6 +1,6 @@
 WeddingDress::Application.routes.draw do
   resources :designers
-
+  resources :stores
   devise_for :users
   root to: 'home#index'
   # The priority is based upon order of creation: first created -> highest priority.

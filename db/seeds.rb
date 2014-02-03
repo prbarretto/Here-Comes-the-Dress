@@ -43,3 +43,4 @@ Store.create(name: "Firas Yousif Originals Bridal & Evening Wear", yelp_id: "fir
 Store.create(name: "Sonia's Bridal and Quinceañera", yelp_id: "sonias-bridal-and-quinceañera-jamaica-plain")
 Store.create(name: "Daniel Faucher Couture Design", yelp_id: "daniel-faucher-couture-design-boston")
 Store.create(name: "Ananya Designs", yelp_id: "ananya-designs-arlington")
+
