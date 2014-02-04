@@ -147,7 +147,7 @@ romona = Designer.create(name: "Romona Keveza Couture")
 langner = Designer.create(name: "Peter Langner")
 rivini = Designer.create(name: "Rivini")
 yolan = Designer.create(name: "Yolan Cris")
-vera = Designer.create(name: "Vera Wang")
+wang = Designer.create(name: "Vera Wang")
 sottero = Designer.create(name: "Sottero & Midgley")
 white = Designer.create(name: "White by Vera Wang")
 oleg = Designer.create(name: "Oleg Cassini")
@@ -176,3 +176,157 @@ lovebonny = Designer.create(name: "Love by Bonny Bridal")
 mooncoll = Designer.create(name: "Moonlight Collection")
 moontango = Designer.create(name: "Moonlight Tango")
 lunarosa = Designer.create(name: "Luna by Rosa Clara")
+indian = Designer.create(name: "Indian Bridal Wear")
+
+corenmoore.stores << flair
+yoo.stores << flair
+amykuschel.stores << flair
+siri.stores << flair
+theia.stores << flair << reine
+nicolemiller.stores << flair << camilla << country
+tarakelly.stores << flair
+enzoani.stores << sabella << reine
+juddwaddell.stores << allegria
+packham.stores << allegria << musette
+lazaro.stores << allegria << elite
+jimhjelm.stores << allegria << country << sposa
+alvina.stores << allegria << country << sposa
+eveofmilady.stores << allegria
+ullamaja.stores << allegria
+augusta.stores << allegria << reine
+matthew.stores << allegria
+ines.stores << allegria
+kelly.stores << allegria
+francesca.stores << allegria
+sareh.stores << allegria
+maggie.stores << precious << camilla << manhattan << choice << reine << bnb
+labelbyg.stores << precious << choice
+allurebridal.stores << precious << reine << bnb
+allurecouture.stores << precious
+casablanca.stores << precious << manhattan << reine
+cb.stores << precious
+pronovias.stores << precious << reine << musette
+blueenzoani.stores << sabella << precious << reine
+sung.stores << precious
+kc.stores << precious
+dere.stores << camilla << scala
+essenseaustralia.stores << camilla
+mikaella.stores << camilla << reine << bnb
+paloma.stores << camilla << country << reine << bnb
+wtoo.stores << camilla << reine
+various.stores << vows << filene << secret << clothes << brocades << rossy << chhabra << casa << newlook
+barge.stores << country << musette
+devillo.stores << country
+christos.stores << country << musette
+liancarlo.stores << country << elite
+modern.stores << country
+victoria.stores << country
+watters.stores << country << sposa << reine
+allureromance.stores << manhattan
+davinci.stores << manhattan
+julietta.stores << manhattan << sonia
+morilee.stores << manhattan << sposa << reine << bnb << sonia
+jacquelin.stores << manhattan << scala
+wu.stores << manhattan << bnb << scala
+levkoff.stores << manhattan << sposa
+custom.stores << sabella << luke << emilia << ana << firas << daniel << ananya
+disney.stores << alfred
+mvb.stores << alfred
+angelo.stores << alfred << choice << sposa
+sapphire.stores << alfred
+jascoll.stores << grandasia << sposa
+jascouture.stores << grandasia
+alexsig.stores << grandasia
+alex.stores << grandasia << reine
+privcoll.stores << grandasia
+sincerity.stores << grandasia
+sweetheart.stores << grandasia
+amsale.stores << elite
+herrera.stores << elite
+domo.stores << elite
+elie.stores << elite << reine
+pool.stores << elite
+marchesa.stores << elite
+monique.stores << elite
+khan.stores << elite
+oscar.stores << elite
+reem.stores << elite
+moncheri.stores << choice << sposa
+impression.stores << choice
+demetrios.stores << choice << sposa
+aftersix.stores << sposa
+airebarc.stores << sposa << reine
+jordan.stores << sposa
+sposa.stores << sposa
+anaiss.stores << reine
+aria.stores << reine
+cymbeline.stores << reine << musette
+complice.stores << reine
+farage.stores << reine
+gemy.stores << reine
+kitty.stores << reine
+lusan.stores << reine
+reinepriv.stores << reine
+marisa.stores << reine
+mota.stores << reine << musette
+pattis.stores << reine
+legends.stores << reine << musette
+rosa.stores << reine
+patrick.stores << reine
+soft.stores << reine << ceremony
+two.stores << reine
+venus.stores << reine
+yumi.stores << reine
+romona.stores << musette
+langner.stores << musette
+rivini.stores << musette
+yolan.stores << musette
+vera.stores << wang
+sottero.stores << bnb
+white.stores << dedham << natick << danvers
+oleg.stores << dedham << natick << danvers
+sweet.stores << dedham << natick << danvers
+galinasig.stores << dedham << natick << danvers
+galina.stores << dedham << natick << danvers
+dbcoll.stores << dedham << natick << danvers
+dbstudio.stores << dedham << natick << danvers
+fillmore.stores << ceremony
+manivet.stores << ceremony
+janks.stores << ceremony
+pettibone.stores << ceremony
+sarahseven.stores << ceremony
+holmes.stores << ceremony
+marshall.stores << ceremony
+temperley.stores << ceremony
+lela.stores << ceremony
+bell.stores << scala
+blumori.stores << sonia
+voyagemori.stores << sonia
+bonny.stores << sonia
+essencebonny.stores << sonia
+blissbonny.stores << sonia
+unforgettable.stores << sonia
+lovebonny.stores << sonia
+mooncoll.stores << sonia
+moontango.stores << sonia
+lunarosa.stores << sonia
+indian.stores << brocades << chhabra << ananya
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
