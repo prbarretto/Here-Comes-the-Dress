@@ -10,7 +10,7 @@ class DesignersController < ApplicationController
 	end
 
 	def create
-		@designer = Designer.find(params[:id])
+		@designer = Designer.find(params[:designer_id])
 	end
 	# def search_form
 	# 	# render # form to enter a designer
@@ -20,4 +20,7 @@ class DesignersController < ApplicationController
 	# def search
 	# 	@designers = Designer.find_by_name(params[:name])
 	# end
+
+
+
 end

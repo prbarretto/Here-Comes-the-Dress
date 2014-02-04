@@ -6,6 +6,6 @@ class StoresController < ApplicationController
 	end
 
 	def show
-		@stores = Store.all
+		@store = Store.all
 	end
 end
