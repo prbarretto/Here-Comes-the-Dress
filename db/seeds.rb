@@ -1,4 +1,4 @@
-# This file should contain all the record creation needed to seed the database with its default values.
+ # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
 # Examples:
@@ -26,7 +26,7 @@ elite = Store.create(name: "L'elite Bridal Boutique", yelp_id: "l-elite-bridal-b
 choice = Store.create(name: "Bride's Choice", yelp_id: "brides-choice-waltham")
 chhabra = Store.create(name: "Chhabra Bridal Wear", yelp_id: "chhabra-bridal-wear-cambridge")
 emilia = Store.create(name: "Emilia Creations", yelp_id: "emilia-creations-lexington")
-sposa = Store.create(name: "La Sposa Bridal", yelp_id: "la-sposa-bridal-newton")
+lasposa = Store.create(name: "La Sposa Bridal", yelp_id: "la-sposa-bridal-newton")
 reine = Store.create(name: "La Reine Bridal", yelp_id: "la-reine-bridal-waltham")
 casa = Store.create(name: "Casa Fiesta & Bridal Shop", yelp_id: "casa-fiesta-and-bridal-shop-lynn")
 ana = Store.create(name: "Ana Hernandez", yelp_id: "ana-hernandez-boston")
@@ -55,7 +55,7 @@ enzoani = Designer.create(name: "Enzoani")
 juddwaddell = Designer.create(name: "Judd Waddell")
 packham = Designer.create(name: "Jenny Packham")
 lazaro = Designer.create(name: "Lazaro")
-jimhjelm = Designer.create(name: "Jim Hjelm")
+jim = Designer.create(name: "Jim Hjelm")
 alvina = Designer.create(name: "Alvina Valenta")
 eveofmilady = Designer.create(name: "Eve of Milady")
 ullamaja = Designer.create(name: "Anna Maier Ulla Maja")
@@ -189,8 +189,8 @@ enzoani.stores << sabella << reine
 juddwaddell.stores << allegria
 packham.stores << allegria << musette
 lazaro.stores << allegria << elite
-jimhjelm.stores << allegria << country << sposa
-alvina.stores << allegria << country << sposa
+jim.stores << allegria << country << lasposa
+alvina.stores << allegria << country << lasposa
 eveofmilady.stores << allegria
 ullamaja.stores << allegria
 augusta.stores << allegria << reine
@@ -221,20 +221,20 @@ christos.stores << country << musette
 liancarlo.stores << country << elite
 modern.stores << country
 victoria.stores << country
-watters.stores << country << sposa << reine
+watters.stores << country << lasposa << reine
 allureromance.stores << manhattan
 davinci.stores << manhattan
 julietta.stores << manhattan << sonia
-morilee.stores << manhattan << sposa << reine << bnb << sonia
+morilee.stores << manhattan << lasposa << reine << bnb << sonia
 jacquelin.stores << manhattan << scala
 wu.stores << manhattan << bnb << scala
-levkoff.stores << manhattan << sposa
+levkoff.stores << manhattan << lasposa
 custom.stores << sabella << luke << emilia << ana << firas << daniel << ananya
 disney.stores << alfred
 mvb.stores << alfred
-angelo.stores << alfred << choice << sposa
+angelo.stores << alfred << choice << lasposa
 sapphire.stores << alfred
-jascoll.stores << grandasia << sposa
+jascoll.stores << grandasia << lasposa
 jascouture.stores << grandasia
 alexsig.stores << grandasia
 alex.stores << grandasia << reine
@@ -251,13 +251,13 @@ monique.stores << elite
 khan.stores << elite
 oscar.stores << elite
 reem.stores << elite
-moncheri.stores << choice << sposa
+moncheri.stores << choice << lasposa
 impression.stores << choice
-demetrios.stores << choice << sposa
-aftersix.stores << sposa
-airebarc.stores << sposa << reine
-jordan.stores << sposa
-sposa.stores << sposa
+demetrios.stores << choice << lasposa
+aftersix.stores << lasposa
+airebarc.stores << lasposa << reine
+jordan.stores << lasposa
+sposa.stores << lasposa
 anaiss.stores << reine
 aria.stores << reine
 cymbeline.stores << reine << musette
@@ -281,7 +281,7 @@ romona.stores << musette
 langner.stores << musette
 rivini.stores << musette
 yolan.stores << musette
-vera.stores << wang
+wang.stores << vera
 sottero.stores << bnb
 white.stores << dedham << natick << danvers
 oleg.stores << dedham << natick << danvers

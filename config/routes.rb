@@ -2,7 +2,7 @@ WeddingDress::Application.routes.draw do
   resources :designers
   resources :stores
   devise_for :users
-  root to: 'home#index'
+  root to: 'stores#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
