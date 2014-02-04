@@ -1,0 +1,5 @@
+ <h3>What Stores Carry My Designer?</h3>
+ 		<%= form_for :designer_id do |f| %>
+    <%= f.collection_select(:store_ids, Designer.find(:all, :order => "name ASC"), :id, :name, :include_blank => true)%>
+    <%= f.submit "Show Stores" %>
+  <% end %>
