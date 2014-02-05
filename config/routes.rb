@@ -6,6 +6,10 @@ WeddingDress::Application.routes.draw do
   # submit the select designer, shows the stores that have this designer
   post  '/designer_searches', to: 'designer_searches#create'
 
+  get  '/store_searches', to: 'store_searches#new'
+
+  post  '/store_searches', to: 'store_searches#create'
+
   devise_for :users
   root to: 'stores#index'
   # The priority is based upon order of creation: first created -> highest priority.
