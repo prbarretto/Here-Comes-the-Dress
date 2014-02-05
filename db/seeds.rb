@@ -6,9 +6,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-flair = Store.create(name: "Flair Brides + Maids", yelp_id: "flair-brides-maids-boston")
-sabella = Store.create(name: "Sabella Couture", yelp_id: "sabella-couture-boston")
-allegria = Store.create(name: "Allegria Bridal", yelp_id: "allegria-bridal-belmont")
+flair = Store.create(name: "Flair Brides + Maids", yelp_id: "flair-brides-maids-boston", url: "http://www.yelp.com/biz/flair-brides-maids-boston")
+sabella = Store.create(name: "Sabella Couture", yelp_id: "sabella-couture-boston", url: "http://www.yelp.com/biz/sabella-couture-boston")
+allegria = Store.create(name: "Allegria Bridal", yelp_id: "allegria-bridal-belmont", url: "http://www.yelp.com/biz/allegria-bridal-belmont")
 precious = Store.create(name: "Precious Memories Bridal", yelp_id: "precious-memories-bridal-malden")
 camilla = Store.create(name: "Camilla's Bridal", yelp_id: "camillas-bridal-arlington")
 vows = Store.create(name: "Vows Bridal Outlet", yelp_id: "vows-bridal-outlet-watertown")
