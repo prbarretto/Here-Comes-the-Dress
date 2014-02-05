@@ -6,6 +6,7 @@ gem 'dotenv-rails', :groups => [:development, :test]
 gem 'yelpster'
 
 
+
 gem 'devise'
 
 gem 'better_errors'

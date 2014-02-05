@@ -4,6 +4,7 @@ class CreateStores < ActiveRecord::Migration
       t.text :name
       t.text :yelp_id
 
+
       t.timestamps
     end
   end

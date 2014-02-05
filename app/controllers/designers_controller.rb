@@ -10,6 +10,12 @@ class DesignersController < ApplicationController
 		@designer = Designer.find(params[:designer_id])
 		@stores = @designer.stores
 	end
+
+	def self.search_yelp(yelp_id)
+		client = Yelp::Client.new
+		request = Id.new(:yelp_business_id => yelp_id)
+ 		response = client.search(request)
+	end
 end
 	# def search_form
 	# 	# render # form to enter a designer

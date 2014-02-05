@@ -1,4 +1,5 @@
 class StoreSearchesController < ApplicationController
+	include Yelp::V2::Search::Request
 
 	def new
 		@store = Store.new
@@ -9,4 +10,5 @@ class StoreSearchesController < ApplicationController
 		@designers = store.designers
 		render :show
 	end
+
 end

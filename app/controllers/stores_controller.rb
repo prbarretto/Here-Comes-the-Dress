@@ -1,5 +1,4 @@
 class StoresController < ApplicationController
-	include Yelp::V2::Business::Request
 
 	def index
 		if params[:designer_id]
