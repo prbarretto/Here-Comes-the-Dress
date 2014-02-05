@@ -1,0 +1,4 @@
+<%= form_tag '/designer_searches' do |f| %>
+<%= select_tag(:id, options_for_select(Designer.all.map{ |designer| [designer.name, designer.id]}) ) %>
+<%= submit_tag "Show Stores" %>
+  <% end %>

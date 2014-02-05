@@ -1,5 +1,7 @@
- <h3>What Designers Does My Store Carry?</h3>
- 		<%= form_for :designer_id do |f| %>
-    <%= f.collection_select(:store_ids, Store.find(:all, :order => "name ASC"), :id, :name, :include_blank => true)%>
-    <%= f.submit "Show Designers" %>
+
+
+ <h3>What Designers Does My Story Carry?</h3>
+ 		<%= form_tag store_path(:id), method: :get do |f| %>
+    <%= select_tag(:store_id, options_for_select(@stores.map{ |s| [s.name, s.id]}) ) %>
+    <%= submit_tag "Show Designers" %>
   <% end %>
