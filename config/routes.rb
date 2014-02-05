@@ -11,7 +11,7 @@ WeddingDress::Application.routes.draw do
   post  '/store_searches', to: 'store_searches#create'
 
   devise_for :users
-  root to: 'stores#index'
+  root to: 'users#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
