@@ -1,5 +1,7 @@
 <h1>Search by Store</h1>
-<h1><%= form_tag '/stores' do |f| %>
-<%= select_tag(:id, options_for_select(Store.all.order(:name).map{ |store| [store.name, store.id]}) ) %></h1>
-<%= submit_tag "Show Designers" %>
-  <% end %>
+<%= form_tag '/stores' do |f| %>
+	<h1>
+		<%= select_tag(:id, options_for_select(Store.all.order(:name).map{ |store| [store.name, store.id]}) ) %>
+	</h1>
+	<%= submit_tag "Show Designers" %>
+<% end %>
