@@ -1,8 +1,8 @@
 <h1>Stores:</h1>
 <% @stores_yelp.each do |store| %>
-<h3> <%= store["name"] %> </h3>
-<h3> <%= store["rating"] %></h3>
-<h3> <%= link_to store["url"] %></h3>
-<h3> <%= store["display_phone"] %></h3>
+<h3>Store Name: <%= store["name"] %> </h3>
+<p>Yelp Rating: <%= store["rating"] %></p>
+<p>Phone Number: <%= store["display_phone"] %></p>
+<p>Yelp Page: <%= link_to store["url"], store["url"] %></p>
 <% end %>
 
