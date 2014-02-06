@@ -1,3 +1,11 @@
-<% @stores.each do |store| %>
-	<%= "#{store.name}" %><br>
+
+
+<h1>Store Information:</h1>
+<% @stores_yelp.each do |store| %>
+<h3>Store Name: <%= store["name"] %> </h3>
+<p>Yelp Star Rating: <%= store["rating"] %></p>
+<p>Phone Number: <%= store["display_phone"] %></p>
+<p>Yelp: <%= link_to store["url"], store["url"], target: '_blank' %></p>
 <% end %>
+
+<h3><%= link_to "Home", root_path %><h3>

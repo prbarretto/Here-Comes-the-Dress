@@ -1,8 +1,0 @@
- <h3>What Stores Carry My Designer?</h3>
-
-<%= form_tag designers_path(Designer.new), method: :get do |f| %>
-<%= select_tag(:designer_id, options_for_select(@designers.map{ |designer| [designer.name, designer.id]}) ) %>
-<%= submit_tag "Show Stores" %>
-  <% end %>
-
-

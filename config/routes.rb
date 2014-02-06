@@ -2,13 +2,13 @@ WeddingDress::Application.routes.draw do
   resources :designers
   resources :stores
   # gives me a list of designers
-  get  '/designer_searches', to: 'designer_searches#new'
+  get  '/designers', to: 'designers#new'
   # submit the select designer, shows the stores that have this designer
-  post  '/designer_searches', to: 'designer_searches#create'
+  post  '/designers', to: 'designers#create'
 
-  get  '/store_searches', to: 'store_searches#new'
+  get  '/stores', to: 'stores#new'
 
-  post  '/store_searches', to: 'store_searches#create'
+  post  '/stores', to: 'stores#create'
 
   devise_for :users
   root to: 'users#index'

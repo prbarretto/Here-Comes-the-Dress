@@ -1,27 +1,30 @@
-# class DesignersController < ApplicationController
-# 	include Yelp::V2::Business::Request
+class DesignersController < ApplicationController
+	include Yelp::V2::Search::Request
 
-# 	def index
-# 		@designer = Designer.new
-# 		@designers = Designer.all
-# 	end
+	def index
+ 		@designer = Designer.new
+ 		@designers = Designer.all
+ 		render :new
+	end
 
-# 	def show
-# 		@designer = Designer.find(params[:designer_id])
-# 		@stores = @designer.stores
-# 	end
+	def new
+		@designer = Designer.new
+	end
 
-# 	def self.search_yelp(yelp_id)
-# 		client = Yelp::Client.new
-# 		request = Id.new(:yelp_business_id => yelp_id)
-#  		response = client.search(request)
-# 	end
-# end
-	# def search_form
-	# 	# render # form to enter a designer
-	# 	# search_form.html.erb
-	# end
+	def create
+		designer = Designer.find(params[:id])
+		@stores = designer.stores
+		@stores_yelp = []
 
-	# def search
-	# 	@designers = Designer.find_by_name(params[:name])
-	# end
+		client = Yelp::Client.new
+
+		@stores.each do |store|
+			request = Yelp::V2::Business::Request::Id.new(:yelp_business_id => store.yelp_id)
+			response = client.search(request)
+			@stores_yelp << response
+		end
+		render :show
+	end
+
+
+end

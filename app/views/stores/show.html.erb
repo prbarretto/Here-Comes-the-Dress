@@ -1,0 +1,10 @@
+
+<h2><%= @store.name %></h2>
+<p><%= link_to @store.url, @store.url, target: '_blank' %></p>
+
+<h2>Designers:</h2>
+<% @designers.each do |designer| %>
+<h3> <%= designer.name %> </h3>
+<% end %>
+
+<h3><%= link_to "Home", root_path %><h3>
