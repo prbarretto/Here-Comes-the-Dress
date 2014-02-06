@@ -6,8 +6,8 @@ class StoreSearchesController < ApplicationController
 	end
 
 	def create
-		store = Store.find(params[:id])
-		@designers = store.designers
+		@store = Store.find(params[:id])
+		@designers = @store.designers
 		render :show
 	end
 
