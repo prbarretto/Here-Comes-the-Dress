@@ -40,7 +40,7 @@ danvers = Store.create(name: "David's Bridal Danvers", yelp_id: "davids-bridal-d
 ceremony = Store.create(name: "Ceremony Boston", yelp_id: "ceremony-boston-boston", url: "http://www.yelp.com/biz/ceremony-boston-boston")
 scala = Store.create(name: "La Scala Bridal Shoppe", yelp_id: "la-scala-bridal-shoppe-revere", url: "http://www.yelp.com/biz/la-scala-bridal-shoppe-revere")
 firas = Store.create(name: "Firas Yousif Originals Bridal & Evening Wear", yelp_id: "firas-yousif-originals-bridal-and-evening-wear-boston", url: "http://www.yelp.com/biz/firas-yousif-originals-bridal-and-evening-wear-boston")
-sonia = Store.create(name: "Sonia's Bridal and Quinceañera", yelp_id: "sonias-bridal-and-quinceañera-jamaica-plain", url: "http://www.yelp.com/biz/sonias-bridal-and-quincea%C3%B1era-jamaica-plain")
+sonia = Store.create(name: "Sonia's Bridal and Quinceanera", yelp_id: "sonias-bridal-and-quinceanera-jamaica-plain", url: "http://www.yelp.com/biz/sonias-bridal-and-quinceanera-jamaica-plain")
 daniel = Store.create(name: "Daniel Faucher Couture Design", yelp_id: "daniel-faucher-couture-design-boston", url: "http://www.yelp.com/biz/daniel-faucher-couture-design-boston")
 ananya = Store.create(name: "Ananya Designs", yelp_id: "ananya-designs-arlington", url: "http://www.yelp.com/biz/ananya-designs-arlington")
 
