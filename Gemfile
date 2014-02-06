@@ -5,8 +5,6 @@ gem 'dotenv-rails', :groups => [:development, :test]
 
 gem 'yelpster'
 
-
-
 gem 'devise'
 
 gem 'better_errors'
@@ -60,4 +58,4 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
