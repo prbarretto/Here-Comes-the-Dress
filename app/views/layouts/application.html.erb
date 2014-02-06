@@ -8,6 +8,7 @@
 </head>
 <body>
   <div class="container">
+
   <% if user_signed_in? %>
     Logged in as <strong><%= current_user.email %></strong>.
     <%= link_to 'Edit profile', edit_user_registration_path %> |
@@ -17,6 +18,12 @@
     <%= link_to "Login", new_user_session_path %>
   <% end %>
 
+
+  <ul id="nav">
+    <li><%= link_to "Home", root_path %></li> |
+    <li><%= link_to "Designer Search", designers_path %></li> |
+    <li><%= link_to "Store Search", stores_path %></li>
+  </ul>
 
   <div class="page-header">
     <h1>Here Comes the Dress <small><br>Boston's First Wedding Dress Search Site</small></h1>

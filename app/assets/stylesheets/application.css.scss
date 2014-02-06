@@ -16,14 +16,14 @@
 
 body {
 	background-image:image-url('1060.jpg');
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-family:Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
 	color: #7D0541;
-	text-align: center;
+	text-align:center;
 }
 
 h1 small {
@@ -36,4 +36,13 @@ a {
 
 a:hover {
 	color: #E7A1B0;
+	text-decoration:none;
 }
+
+
+#nav li {
+	display:inline;
+	font-size: 24px;
+	text-align: center;
+}
+
