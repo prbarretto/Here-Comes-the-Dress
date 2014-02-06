@@ -11,6 +11,7 @@ class DesignerSearchesController < ApplicationController
 		@stores_yelp = []
 
 		client = Yelp::Client.new
+
 		@stores.each do |store|
 			request = Yelp::V2::Business::Request::Id.new(:yelp_business_id => store.yelp_id)
 			response = client.search(request)
