@@ -1,4 +1,6 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<body>
 
 <h1>Store Information:</h1>
 <% @stores_yelp.each do |store| %>
@@ -8,4 +10,11 @@
 <p>Yelp: <%= link_to store["url"], store["url"], target: '_blank' %></p>
 <% end %>
 
-<h3><%= link_to "Home", root_path %><h3>
+  <ul class="list-inline">
+    <li><%= link_to "Home", root_path %></li> |
+    <li><%= link_to "Designer Search", designers_path %></li> |
+    <li><%= link_to "Store Search", stores_path %></li>
+  </ul>
+
+</body>
+</html>

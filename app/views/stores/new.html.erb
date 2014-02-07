@@ -1,7 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
 <h1>Search by Store</h1>
 <%= form_tag '/stores' do |f| %>
 	<h1>
 		<%= select_tag(:id, options_for_select(Store.all.order(:name).map{ |store| [store.name, store.id]}) ) %>
 	</h1>
 	<%= submit_tag "Show Designers" %>
-<% end %>
+<% end %><br>
+
+
+  <ul class="list-inline">
+    <li><%= link_to "Home", root_path %></li> |
+    <li><%= link_to "Designer Search", designers_path %></li> |
+    <li><%= link_to "Store Search", stores_path %></li>
+  </ul>
+
+
+</body>
+</html>
